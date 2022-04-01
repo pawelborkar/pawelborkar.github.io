@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-image: url("./assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    user-select: none;
+    -moz-user-select: none;
+    -moz-user-drag: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+li {
+    list-style: none;
+}
+
+.container {
+    
+    /* border: 3px solid rgb(49, 226, 43); */
+    display: flex;
+    justify-content: center;
+}
+
+
+.resume-container {
+    width: 867px;
+    height: 996px;
+    /* background-color: rgba(245, 238, 238, 0.411); */
+    background-color: rgba(245, 238, 238, 0.059);
+    /* background-color: rgba(245, 238, 238, 0.099); */
+    margin: 3rem 5rem 3rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4.125rem;
+    box-shadow: 0px 20px 40px rgba(52, 52, 52, 0.732);
+}
+
+.content{
+    padding: 2rem;
+}
+.top {
+    /* border:  3px solid seagreen; */
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    align-items: center;
+    margin: 0;
+    padding-top: 1rem;
+    /* padding-bottom: 0; */
+}
+.contacts, .social-links{
+    line-height: 2;
+}
+
+.img{
+    /* padding-bottom: 2rem; */
+    /* border:  3px solid seagreen; */
+
+}
+    
+.heading {
+    /* border:  3px solid seagreen; */
+margin-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+}
+
+.work-heading{
+    text-align: left;
+}
+.name{
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+.card{
+    margin-top: 1rem;
+}
+.keypoints{
+    padding-top: 0.5rem;
+    line-height: 1.6;
+}
+/* .contacts {
+    border: 2px solid rgb(255, 0, 64);
+}
+.social-links {
+    border: 2px solid rgb(0, 106, 255);
+} */
+.background {
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.background > div{
+    width: 50%;
+}
+ .skills-container {
+    display: flex;
+    justify-content:flex-end;
+
+    /* border: 2px solid rgb(255, 102, 0); */
+}
+.education {
+    line-height: 1.7;
+    padding-right: 2rem;
+    /* border: 2px solid rgb(0, 234, 255); */
+}
+.edu-details > p{
+    padding-left: 1.25rem;
+}
+ .year-place{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    
+   
+}
+
+.education-container{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.skills{
+    line-height: 1.6;
+
+}
+
+.stack-value{
+    font-weight: 300;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid rgb(0, 8, 255); */
+    
+}
+.experience > div{
+    width: 50%;
+}
+
+/* .work {
+    border: 2px solid rgb(0, 234, 255);
+}
+
+.projects {
+    border: 2px solid rgb(255, 0, 234);
+} */
