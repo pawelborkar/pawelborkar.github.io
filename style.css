@@ -6,7 +6,7 @@
 
 body {
     font-family: "Nunito", sans-serif;
-    background-image: url("./assets/bg.jpg");
+    background-image: url("https://res.cloudinary.com/itspawel/image/upload/ar_16:9,c_fill,e_sharpen,f_webp,g_auto,h_2160,q_91,w_3840/v1648983645/pexels-gradienta-6985003_wqxq15.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,7 +22,6 @@ img {
     -moz-user-drag: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
-    
 }
 
 a {
@@ -34,12 +33,10 @@ li {
 }
 
 .container {
-    
     /* border: 3px solid rgb(49, 226, 43); */
     display: flex;
     justify-content: center;
 }
-
 
 .resume-container {
     width: 867px;
@@ -55,7 +52,7 @@ li {
     box-shadow: 0px 20px 40px rgba(52, 52, 52, 0.732);
 }
 
-.content{
+.content {
     padding: 2rem;
 }
 .top {
@@ -69,19 +66,19 @@ li {
     padding-top: 1rem;
     /* padding-bottom: 0; */
 }
-.contacts, .social-links{
+.contacts,
+.social-links {
     line-height: 2;
 }
 
-.img{
+.img {
     /* padding-bottom: 2rem; */
     /* border:  3px solid seagreen; */
-
 }
-    
+
 .heading {
     /* border:  3px solid seagreen; */
-margin-top: 0;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -89,18 +86,17 @@ margin-top: 0;
     padding: 0.5rem 4rem 0.5rem 4rem;
 }
 
-.work-heading{
+.work-heading {
     text-align: left;
 }
-.name{
-    font-family: 'Playfair Display SC', serif;
-
+.name {
+    font-family: "Playfair Display SC", serif;
 }
 
-.card{
+.card {
     margin-top: 1rem;
 }
-.keypoints{
+.keypoints {
     padding-top: 0.5rem;
     line-height: 1.6;
 }
@@ -116,12 +112,12 @@ margin-top: 0;
     justify-content: space-between;
     margin-top: 1rem;
 }
-.background > div{
+.background > div {
     width: 50%;
 }
- .skills-container {
+.skills-container {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 
     /* border: 2px solid rgb(255, 102, 0); */
 }
@@ -130,29 +126,26 @@ margin-top: 0;
     padding-right: 2rem;
     /* border: 2px solid rgb(0, 234, 255); */
 }
-.edu-details > p{
+.edu-details > p {
     padding-left: 1.25rem;
 }
- .year-place{
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-    
-   
+.year-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.education-container{
+.education-container {
     display: flex;
     justify-content: space-between;
     /* flex-direction: column; */
 }
 
-.skills{
+.skills {
     line-height: 1.6;
-
 }
 
-.stack-value{
+.stack-value {
     font-weight: 300;
 }
 
@@ -160,9 +153,8 @@ margin-top: 0;
     display: flex;
     justify-content: space-between;
     /* border: 2px solid rgb(0, 8, 255); */
-    
 }
-.experience > div{
+.experience > div {
     width: 50%;
 }
 
