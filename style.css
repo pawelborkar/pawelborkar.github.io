@@ -86,6 +86,11 @@ li {
     padding: 0.5rem 4rem 0.5rem 4rem;
 }
 
+.heading .designation{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .work-heading {
     text-align: left;
 }
