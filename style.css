@@ -6,7 +6,9 @@
 
 body {
     font-family: "Inter", sans-serif;
-    background-image: url("https://res.cloudinary.com/itspawel/image/upload/ar_16:9,c_fill,e_sharpen,f_webp,g_auto,h_2160,q_91,w_3840/v1648983645/pexels-gradienta-6985003_wqxq15.webp");
+    background: #ED4264;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
     font-size: 12px;
 
