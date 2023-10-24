@@ -1,171 +1,169 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    background: #ED4264;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
-    font-size: 12px;
+  font-family: "Inter", sans-serif;
+  background: url(https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 100vh;
+  font-size: 12px;
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    object-fit: contain;
-    color: rgb(26, 26, 26);
-    /* border: 2px solid greenyellow; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: contain;
+  color: rgb(26, 26, 26);
+  /* border: 2px solid greenyellow; */
 }
 
 img {
-    width: 7rem;
-    height: 7rem;
-    padding: 4px;
-    border-radius: 50%;
-    user-select: none;
-    -moz-user-select: none;
-    -moz-user-drag: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
+  width: 7rem;
+  height: 7rem;
+  padding: 4px;
+  border-radius: 50%;
+  user-select: none;
+  -moz-user-select: none;
+  -moz-user-drag: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .container {
-    /* border: 13px solid rgb(43, 226, 226); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    overflow-y: hidden;
+  /* border: 13px solid rgb(43, 226, 226); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow-y: hidden;
 }
 
 .resume-container {
-    width: 600px;
-    height: 98%;
-    background-color: rgba(245, 238, 238, 0.059);
-    /* background-color: rgba(245, 238, 238, 0.084); */
-    margin: 2rem 5rem 2rem 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4.125rem;
-    box-shadow: 0px 20px 40px rgba(52, 52, 52, 0.732);
-    /* border: 3px solid rgb(226, 104, 43); */
+  width: 600px;
+  height: 98%;
+  background-color: rgba(245, 238, 238, 0.059);
+  /* background-color: rgba(245, 238, 238, 0.084); */
+  margin: 2rem 5rem 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.125rem;
+  box-shadow: 0px 20px 40px rgba(52, 52, 52, 0.732);
+  /* border: 3px solid rgb(226, 104, 43); */
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    .resume-container {
-        -webkit-backdrop-filter: blur(50px);
-        backdrop-filter: blur(50px);
-        background-color: rgba(255, 255, 255, 0.081);
-    }
+  .resume-container {
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 0.081);
+  }
 }
 
 .content {
-    padding: 2rem;
-    /* max-height: 100%; */
+  padding: 2rem;
+  /* max-height: 100%; */
 }
 .top {
-    /* border: 3px solid seagreen; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
+  /* border: 3px solid seagreen; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
 }
 .contacts,
 .social-links {
-    line-height: 2;
+  line-height: 2;
 }
 
 .heading {
-    /* border:  3px solid seagreen; */
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem 4rem 0.5rem 4rem;
+  /* border:  3px solid seagreen; */
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 4rem 0.5rem 4rem;
 }
 
 .heading .designation {
-    font-size: 1rem;
-    font-weight: 600;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .work-heading {
-    text-align: left;
+  text-align: left;
 }
 .name {
-    font-family: "Playfair Display SC", serif;
+  font-family: "Playfair Display SC", serif;
 }
 
 .card {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 .keypoints {
-    padding-top: 0.5rem;
-    line-height: 1.6;
+  padding-top: 0.5rem;
+  line-height: 1.6;
 }
 .background {
-    /* border: 3px solid green; */
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
+  /* border: 3px solid green; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 .background > div {
-    width: 50%;
+  width: 50%;
 }
 .skills-container {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 
-    /* border: 2px solid rgb(255, 102, 0); */
+  /* border: 2px solid rgb(255, 102, 0); */
 }
 .education {
-    line-height: 1.7;
-    padding-right: 2rem;
-    /* border: 2px solid rgb(0, 234, 255); */
+  line-height: 1.7;
+  padding-right: 2rem;
+  /* border: 2px solid rgb(0, 234, 255); */
 }
 .edu-details > p {
-    padding-left: 1.25rem;
+  padding-left: 1.25rem;
 }
 .year-place {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .education-container {
-    display: flex;
-    justify-content: space-between;
-    /* flex-direction: column; */
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
 }
 
 .skills {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 .stack-value {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .experience {
-    display: flex;
-    justify-content: space-between;
-    /* border: 2px solid rgb(0, 8, 255); */
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid rgb(0, 8, 255); */
 }
 .experience > div {
-    width: 50%;
+  width: 50%;
 }
 
 /* .work {
